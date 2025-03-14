@@ -1,0 +1,15 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# Ignore large binaries related to lazygit
+lazygit
+lazygit.tar.gz
+
+# Optionally, ignore the lock file if not needed
+lazy-lock.json
